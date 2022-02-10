@@ -1,9 +1,9 @@
-import View from './View';
+import view from './view';
 //import icons from '../img/icons.svg'; // parcel 1
 import icons from 'url:../../img/icons.svg'; // parcel 2
 import { Fraction } from 'fractional';
 
-class RecipeView extends View {
+class RecipeView extends view {
   _parentElemnt = document.querySelector('.recipe');
   _errorMessage = "We couldnt't find that recipe. Please try another one!";
   _message = '';
